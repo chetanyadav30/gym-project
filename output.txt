@@ -1,0 +1,1 @@
+{"name":"Chetan Yadav","age":"20","email":"y.chetan12@gmail.com","gender":"on","locality":"delhi","date":"2020-07-05","goal":"muscle gain"}
