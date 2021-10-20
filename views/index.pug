@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    style 
+        include ../static/style.css
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            //- <!-- <img src="../views/dumbbells.jpg" alt="loading"> -->
+            img(src="../static/dumbbells.jpg", alt="Best Cyber Hacks")
+            <div>TORSO</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="/">HOME</a></li>
+                <li><a href="/">ABOUT Us</a></li>
+                <li><a href="/">Fitness Calculator</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email id</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym in Delhi</h1>
+        <form action="/" method="POST" id="contact" >
+            <div class="form-group">
+                <label for="name">NAME</label>
+                 <input type="text" name="name" id="name" placeholder="enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">EMAIL</label>
+                 <input type="email" name="email" id="email" placeholder="enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="age">AGE</label>
+                 <input type="number" name="age" id="age" placeholder="age"  required>
+            </div>
+            <div class="form-group">
+                <label for="sex">GENDER </label>
+                  <input type="radio" name="gender" id="sex" value="male" required >male  <input type="radio" name="gender" id="sex" value="female" required >female <input type="radio" name="gender" id="sex" value="other" required>other 
+            </div>
+            <div class="form-group">
+                <label for="locality">LOCALITY</label>
+                 <input type="text" name="locality" id="locality" placeholder="enter your locality" required>
+            </div>
+            <div class="form-group">
+                <label for="data">DATE OF JOINING</label>
+                 <input type="date" name="date" id="date">
+            </div>
+            <div class="form-group">
+                <label for="goal">WHAT IS YOUR GOAL?</label>
+                 <select name="goal" id="goal"  >
+                
+                    <option value="muscle gain">muscle gain</option>
+                    <option value="weightloss">weightloss</option>
+                    <option value="lean muscle">lean muscle</option>
+                    <option value="weightlifting">weightlifting</option>
+                </select>
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>    

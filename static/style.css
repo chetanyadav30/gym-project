@@ -1,0 +1,106 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('/static/barbell.jpg') ;
+}
+.left{
+    display: inline-block;
+    
+     position: absolute;
+    left: 30px;
+    top: 20px;
+}
+.left img{
+    width: 180px;
+    filter:invert(20%);
+    border-radius: 60%;
+
+}
+.left div{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 19px;
+}
+.mid{
+    display: block;
+    /* border: 2px solid green; */
+     width: 48%;
+     margin: 20px auto;
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+
+}
+.navbar li a:hover,.navbar li a:active{
+    color: gray;
+    text-decoration: underline;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    /* border: 2px solid purple; */
+}
+.btn{
+    cursor: pointer;
+    margin: 0px 9px;
+    background-color: brown;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.btn:hover{
+    background-color: gray;
+}
+.container{
+    border: 2px solid ;
+    margin: 170px 100px;
+    padding: 70px;
+    width: 33%;
+    border-radius: 20px;
+}
+.form-group input{
+    text-align: center;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 1px;
+    
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 40%;
+    margin: 20px 10px;
+}
+.container select{
+    text-align: center;
+border: 2px solid black;
+margin: 11px auto;
+font-size: 20px;
+border-radius: 10px;
+padding: 1px;
+width: 200px;
+} 
+
+
+
